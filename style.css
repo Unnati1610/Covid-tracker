@@ -14,5 +14,12 @@
 #covid {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  /* align-content: center; */
+  align-items: stretch;
+}
+
+div.div {
+  width: 50%;
 }
